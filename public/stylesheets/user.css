@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+header {
+	padding: 10px 0 0 0;
+	text-align: center;
+}
+#content {
+	min-height: 400px;
+	padding: 40px 50px;
+	text-align: center;
+}
+.errors {
+	color: red;
+}
+.errors ul {
+	list-style: none;
+}
+/* login form */
+.login_form {
+	width: 300px;
+	margin: 0 auto;
+	border: 1px solid;
+	border-radius: 20px;
+	padding: 0 0 20px 0;
+}
+.sign_up {
+	margin-top: 30px;
+	font-size: x-large;
+	font-weight: 500;
+}
+/* sign up form */
+.sign_up_form {
+	width: 400px;
+	margin: 0 auto;
+	border: 1px solid;
+	border-radius: 20px;
+	padding: 0 0 20px 0;
+}
+
+/* user setting */
+
+.user_setting ul {
+	list-style: none;
+}
+
+/* user delete */
+
+/* user edit */
+
+/* shared footer */
+footer {
+	height: 20px;
+	font-size: x-large;
+	margin: 0 0 50px 0;
+	padding: 10px 20px;
+	text-align: center;
+}

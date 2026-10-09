@@ -1,0 +1,37 @@
+/* admin page */
+
+.admin_setting ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	vertical-align: top;
+}
+table.list {
+	width: 100%;
+	margin-top: 20px;
+}
+table.list tr td {
+	border-radius: 4px;
+	background: rgb(169, 185, 169);
+}
+table.list tr th {
+	border-radius: 4px;
+	background: #042f66;
+	color: white;
+	text-align: center;
+}
+/* admin item show */
+.admin_items_show div dd img {
+	margin-top: 20px;
+	border-radius: 50px;
+	max-width: 600px;
+}
+.admin_subjects_show table.list tr td img {
+	max-width: 200px;
+	border-radius: 50px;
+}
+table.list tr td img {
+	max-width: 200px;
+	border-radius: 50px;
+}

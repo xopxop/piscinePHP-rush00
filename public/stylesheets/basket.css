@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+table {
+  background-color: wheat;
+  border: 0.1rem solid black;
+  width: 50%;
+}
+
+td {
+  text-align: center;
+  border: 0.1rem solid black;
+}
+
+.button {
+  background-color: rgb(214, 214, 214);
+  border: 0.1rem solid black;
+  text-align: center;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+}
