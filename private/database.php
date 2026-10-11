@@ -1,6 +1,16 @@
 <?php
 require_once('db_credentials.php');
 
+function database_already_exists() {
+  try {
+	  $connection = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
+    db_disconnect($connection);
+    return true;
+  } catch (mysqli_sql_exception $e) {
+    return false;
+  }
+}
+
 function confirm_connection()
 {
 	if (mysqli_connect_errno()) {
