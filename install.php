@@ -59,7 +59,7 @@ function fill_default_values_into_items_table() {
 		array('subject_id' => 4, 'item_name' => 'piano', 'position' => 16, 'price' => '16.00', 'image' => 'https://cdn.pixabay.com/photo/2017/10/06/15/16/grand-piano-2823488_960_720.jpg'),
 		array('subject_id' => 5, 'item_name' => 'violin', 'position' => 17, 'price' => '17.00', 'image' => 'https://cdn.pixabay.com/photo/2016/01/13/00/58/violin-1136991_960_720.jpg'),
 		array('subject_id' => 5, 'item_name' => 'cello', 'position' => 18, 'price' => '18.00', 'image' => 'https://cdn.pixabay.com/photo/2017/10/08/15/44/cello-2830350_960_720.jpg'),
-		array('subject_id' => 6, 'item_name' => 'saxo phone', 'position' => 19, 'price' => '19.00', 'image' => 'https://cdn.pixabay.com/photo/2015/09/02/13/08/saxophone-918904_960_720.jpg'),
+		array('subject_id' => 6, 'item_name' => 'saxo phone', 'position' => 19, 'price' => '19.00', 'image' => 'https://cdn.pixabay.com/photo/2016/05/24/11/54/saxophone-1412218_1280.jpg'),
 		array('subject_id' => 6, 'item_name' => 'flute', 'position' => 20, 'price' => '20.00', 'image' => 'https://cdn.pixabay.com/photo/2018/01/18/12/39/music-3090204_960_720.jpg')
 	);
 
