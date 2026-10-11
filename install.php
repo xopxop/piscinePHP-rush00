@@ -145,7 +145,9 @@ function create_default_root_user() {
 	$sql = "INSERT INTO users ";
 	$sql .= "(access, first_name, last_name, username, hashed_password) ";
 	$sql .= "VALUES (";
-	$sql .= "TRUE, 'root', 'root', ";
+	$sql .= "TRUE, ";
+  $sql .= "'" . db_escape($db, h(SUPERUSER_FIRSTNAME)) . "', ";
+  $sql .= "'" . db_escape($db, h(SUPERUSER_LASTNAME)) . "', ";
 	$sql .= "'" . db_escape($db, h(SUPERUSER_USERNAME)) . "', ";
 	$sql .= "'" . db_escape($db, $hashed_password) . "'";
 	$sql .= ")";
